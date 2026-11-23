@@ -33,7 +33,7 @@ export default function App() {
     return (
         <div style={appStyles}>
             <header style={{ padding: '20px', display: 'flex', justifyContent: 'space-between', alignItems: 'center', borderBottom: '1px solid #555' }}>
-                <h1 style={{ fontSize: '20px', margin: 0 }}>Лабораторна робота №4 (Варіант 21)</h1>
+                <h1 style={{ fontSize: '20px', margin: 0 }}>Лабораторна робота №4 — Варіант 21 (оновлено)</h1>
                 <button
                     onClick={toggleTheme}
                     style={{ padding: '8px 15px', cursor: 'pointer', borderRadius: '6px', border: '1px solid #555', backgroundColor: theme === 'light' ? '#f0f0f0' : '#333', color: 'inherit' }}
